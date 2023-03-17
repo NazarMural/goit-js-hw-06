@@ -1,11 +1,11 @@
 {
-  "name": "parcel-75-template",
+  "name": "goit-js-hw-06",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Tigriceo.github.io/parcel-75-template",
+  "homepage": "https://NazarMural.github.io/goit-js-hw-06",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-75-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-06/"
   },
   "repository": {
     "type": "git",
