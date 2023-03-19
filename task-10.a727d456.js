@@ -1,0 +1,2 @@
+const e=document.querySelector("[data-create]"),t=document.querySelector("[data-destroy]"),o=document.querySelector("#boxes");e.addEventListener("click",(()=>{!function(e){let t=30;const n=[];for(let o=0;o<e;o+=1){const e=document.createElement("div");e.style.width=`${t}px`,e.style.height=`${t}px`,e.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,"0")}`,n.push(e),t+=10}o.append(...n)}(Number(document.querySelector("input").value))})),t.addEventListener("click",(()=>{o.innerHTML=""}));
+//# sourceMappingURL=task-10.a727d456.js.map
